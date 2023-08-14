@@ -1,15 +1,17 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          Your Brand
+    <div className="d-flex justify-content-center">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          Richard Streeper
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -17,27 +19,27 @@ export default function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
                 About Me
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="/projects">
                 Projects
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="/contactme">
                 Contact Me
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="/resume">
                 Resume
               </a>
             </li>
@@ -45,5 +47,6 @@ export default function Nav() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
