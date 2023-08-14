@@ -1,14 +1,17 @@
-import { Link } from 'react-router-dom';
-
 export default function ProjectList() {
+    
     const projects = [
         {
-            name: 'Project 1',
+            name: 'Proj 1',
             link: 'https://www.project1.com'
         },
         {
-            name: 'Project 2',
+            name: 'Proj 2',
             link: 'https://www.project2.com'
+        },
+        {
+            name: 'Random HW',
+            link: 'https://www.randomhw.com'
         }
     ]
     
@@ -18,8 +21,8 @@ export default function ProjectList() {
             <ul>
                 {
                     projects.map((project, i) => (
-                        <li key={i}>
-                            <a href="project.link">
+                        <li key = {i}>
+                            <a href={project.link}>
                                 {project.name}
                             </a>
                         </li>
@@ -28,4 +31,4 @@ export default function ProjectList() {
             </ul>
         </section>
     )
-}
+};
