@@ -1,3 +1,7 @@
+import React from "react";
+import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
+
+
 export default function ProjectList() {
     
     const projects = [
