@@ -4,6 +4,7 @@ import FamilyFiesta from '../assets/images/FamilyFiesta.png';
 import FamilyFiestav2 from '../assets/images/FamilyFiestav2.png';
 import WeatherForecast from '../assets/images/WeatherForecast.png';
 import JATE from '../assets/images/JATE.png';
+import ProjectCard from './ProjectCard';
 
 
 export default function ProjectList() {

@@ -5,13 +5,13 @@ export default function AboutMeCard() {
   return (
     <div>
       <div className="container mt-5">
-        <div className="row">
-          <div className="col-md-4">
-            <img
+        <div className="row justify-content-center">
+          <div className="col-md-5">
+            {/* <img
               src="C:\Users\stree\workspace\react-able\Professional Portfolio\src\assets\images\IMG_3761 (1).jpg"
               alt="Richard Streeper"
               className="rounded-circle img-fluid"
-            />
+            /> */}
             <div className="col-md-8">
             <h2 className="mb-4">About Me!</h2>
             <p>
