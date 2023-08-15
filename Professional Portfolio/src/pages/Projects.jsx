@@ -1,11 +1,11 @@
 import React from 'react';
 
-import ProjectsCard from '../components/ProjectsCard'
+import ProjectCard from '../components/ProjectCard'
 
 export default function Projects() {
     return(
         <div>
-            <ProjectsCard />
+            <Projects />
         </div>
     );
 };

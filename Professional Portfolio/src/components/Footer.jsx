@@ -1,5 +1,5 @@
 import React from "react";
-import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap from "bootstrap/dist/css/bootstrap.min.css?inline";
 
 export default function Footer() {
     return (
