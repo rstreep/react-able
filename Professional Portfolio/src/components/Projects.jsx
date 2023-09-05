@@ -11,9 +11,9 @@ export default function ProjectList() {
     
     const projects = [
         {
-            name: 'Family Fiesta',
+            name: 'Know on the Go!',
             image: FamilyFiesta,
-            link: 'https://rstreep.github.io/family-event-planner/',
+            link: 'https://childs-play-207b603b0a7d.herokuapp.com/',
             github: 'https://github.com/rstreep/family-event-planner'
         },
         {
